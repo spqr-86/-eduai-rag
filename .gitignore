@@ -1,0 +1,81 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# Python 
+__pycache__/
+**__pycache__**/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.sw?
+
+# Логи
+logs/
+*.log
+
+# Файлы покрытия тестированием
+coverage/
+.coverage
+.nyc_output
+.pytest_cache/
+
+# Локальные файлы базы данных
+*.sqlite
+*.sqlite3
+*.db
+
+# Gradio
+flagged/
+gradio_cached_examples/
+gradio_data/
+outputs/
+.gradio/
+gradio-*/
+
+# Директории данных и векторных хранилищ
+data/chroma_db/
+data/raw_documents/
+*.chroma/
